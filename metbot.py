@@ -16,10 +16,6 @@ import plotly.express as fig
 import datetime as dt
 import time
 
-cuenta=64969399
-contrasena='Eduardito51'
-servidor='XMGlobal-MT5 2'
-
 
 if not mt5.initialize(login=cuenta, server=servidor,password=contrasena):
     print("initialize() failed, error code =",mt5.last_error())
